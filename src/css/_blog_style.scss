@@ -1,0 +1,34 @@
+@import 'variables';
+
+.foto-blog{
+    width: 50%;
+    height: 100%;
+    background-color: $pink;
+    border-radius: 10px 0 0 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.desc-blog{
+    width: 50%;
+    padding: 2rem;
+    background-color: $gray;
+    border-radius: 0 10px 10px 0; 
+}
+
+.fecha-blog{
+    color: $pink;
+    font-family: 'font-mb';
+    text-align: end;
+}
+
+
+.flex{
+    display: flex;
+    margin: 5rem;
+}
+
+.foto{
+    object-fit: cover;
+    width: 100%;
+}

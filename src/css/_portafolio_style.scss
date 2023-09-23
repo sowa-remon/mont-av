@@ -1,0 +1,28 @@
+@import 'variables';
+
+.parcial{
+    margin: 5rem;
+    padding: 2rem;
+    background-color: $gray;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.titulo-parcial{
+    color: $pink;
+    font-family: 'font-mb';
+}
+
+.fila-saberes{
+    display:flex;
+    justify-content: space-around;
+}
+
+.btn-carpeta{
+    background-color: $pink;
+    padding: 1rem 3rem;
+    font-family: 'font-mb';
+    color: $white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

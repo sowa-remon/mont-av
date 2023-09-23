@@ -1,0 +1,102 @@
+@import 'variables';
+@import 'portafolio_style';
+@import 'blog_style';
+
+body{
+    background-color: $black;
+}
+
+.banner{
+    display: grid;
+    justify-items: center;
+}
+
+.portrait{
+    border: solid $pink;
+    border-radius: 20px;
+    width: 20%;
+    height: auto;
+    
+}
+
+.nombre{
+    font-family: 'font-mb';
+    font-size: large;
+    color: $white;
+}
+
+.puesto{
+    font-family: 'font-mr';
+    font-size: medium;
+    color: $white;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.red-icon{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: .5rem;
+    background-color: $pink;
+    border-radius: 100%;
+    margin: 0 2rem;  
+    cursor: pointer;
+}
+
+.navbar{
+    margin-top: 4rem;
+    display: flex;
+    color: $pink;
+    font-family: 'font-mb';
+    padding-inline-start: 0;
+}
+
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    width: 33%;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.nav-item.activo{
+    background-color: $gray;
+    color: $white;
+    border-bottom: solid $pink;
+    
+}
+
+.nav-item:hover{
+    background-color: $gray;
+    color: fade-in($color:$white, $amount: 1);
+}
+
+.contenido{
+    display: none;
+}
+
+.contenido.activo{
+    display: block;
+    color: $white;
+}
+
+.titulo-contenido{
+    color: $white;
+    text-align: center;
+    font-family: 'font-mb';
+    margin: 2rem ;
+}
+
+.texto{
+    color: $white;
+    font-family: 'font-mr';
+}
